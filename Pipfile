@@ -9,6 +9,7 @@ flask-restful = "*"
 setuptools = "*"
 zone-common = {editable = true, path = "."}
 check-manifest = "*"
+twine = "*"
 
 [dev-packages]
 
