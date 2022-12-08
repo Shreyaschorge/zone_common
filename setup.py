@@ -7,7 +7,7 @@ setup(
     author='Shreyas Chorge',
     author_email='shreyaschorge81@gmail.com',
     url='https://github.com/Shreyaschorge/zone_common',
-    packages=["exceptions"],
+    packages=["zone_common"],
     package_dir={'': 'src'},
     install_requires=['werkzeug',
                       'flask-restful'
