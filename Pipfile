@@ -8,6 +8,7 @@ werkzeug = "*"
 flask-restful = "*"
 setuptools = "*"
 zone-common = {editable = true, path = "."}
+check-manifest = "*"
 
 [dev-packages]
 
