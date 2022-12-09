@@ -1,4 +1,4 @@
-from exceptions import CustomException
+from .custom_exception import CustomException
 
 
 class UnauthorizedException(CustomException):
