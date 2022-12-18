@@ -13,6 +13,12 @@ class RequestValidationException(CustomException):
 
         serializedErrors = []
         for field, messages in self.errors.items():
-            for msg in messages:
-                serializedErrors.append({"message": msg, "field": field})
+
+            if isinstance(messages, dict):
+                for k, v in messages.items():
+                    serializedErrors.append({"message": v[0], "field": field})
+
+            if isinstance(messages, list):
+                for msg in messages:
+                    serializedErrors.append({"message": msg, "field": field})
         return serializedErrors
