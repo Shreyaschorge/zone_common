@@ -11,6 +11,8 @@ check-manifest = "*"
 twine = "*"
 nats-py = "*"
 asyncio = "*"
+python-decouple = "*"
+pyjwt = "*"
 
 [dev-packages]
 
