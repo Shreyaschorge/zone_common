@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name='zone-common',
-    version='0.0.15',
+    version='0.0.16',
     description='Common utility package for zone c2c',
     author='Shreyas Chorge',
     author_email='shreyaschorge81@gmail.com',
